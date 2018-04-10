@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: navy;
+	font-size: 16px;
+/*	background-image: url("img/forest-bckgrd.jpeg");
+	background-repeat:no-repeat;
+	background-size:cover;
+*/}
+
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+	border: 1px solid yellow;
+}
+
+h2 {
+	font-size: 3.5em;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 2.25em;
+}
+
+/*.fa-chevron-left {
+	position: relative;
+	bottom: 0px;
+	left: 30px;
+	color: #fff;
+}*/
+
+#intro {
+	color: #fff;
+	border: 1px solid red;
+	width: 80%;
+	margin: 6em auto;
+	text-align: center;
+}
+
+#intro p {
+	font-size: 1.5em;
+	border: 1px solid green;
+	width: 75%;
+	margin: 0 auto;
+}
+
+#intro button {
+	color: navy;
+    font-size: 1.2em;
+    border: 1px solid orange;
+    margin: 1em;
+    padding: .3em;
+	width: 20%;
+	border-radius: 4px;
+}
+
+#intro button:hover {
+	background-color: orange;
+}
+
+.question-1 {
+	color: #fff;
+	border: 1px solid red;
+	width: 80%;
+	margin: 6em auto;
+	text-align: center;
+}
+
+/*.question-1 h2 {
+	margin: .5em;
+}*/
+
+.question-1 button {
+	color: navy;
+    font-size: 1.2em;
+    border: 1px solid orange;
+    margin: 1em;
+    padding: .3em;
+	width: 16%;
+	border-radius: 4px;
+}
+
+.question-1 button:hover {
+	background-color: orange;
+}
+
+.question-2 {
+	color: #fff;
+	border: 1px solid red;
+	width: 80%;
+	margin: 6em auto;
+	text-align: center;
+}
+
+.question-2 button {
+	color: navy;
+    font-size: 1.2em;
+    border: 1px solid orange;
+    margin: 1em;
+    padding: .3em;
+	width: 16%;
+	border-radius: 4px;
+}
+
+.question-2 button:hover {
+	background-color: orange;
+}
+
+.loading {
+	color: #fff;
+	border: 1px solid red;
+	width: 80%;
+	margin: 6em auto;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
